@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file defines the classes that I want to persist in the database
+      This is where I also should provide the database driver, location,
+       id and password to access the database -->
+
+<persistence version="2.0"
+             xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+    <!-- Define a name used to get an entity manager. Define that you will
+    complete transactions with the DB  -->
+    <persistence-unit name="YearlyGoals" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Define the class for Hibernate which implements JPA -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- Define the object that should be persisted in the database -->
+        <class>com.edgedevelop.hibernate.YearGoals</class>
+
+        <properties>
+            <!-- Dialect for hibernate, this sets this to MySQLDialect -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <!-- Driver for DB database -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <!-- URL for DB -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/deephabitdb" />
+            <!-- Username -->
+            <property name="javax.persistence.jdbc.user" value="edgedev" />
+            <!-- Password -->
+            <property name="javax.persistence.jdbc.password" value="vjzZTKu#C&amp;H4W9KQlcrMZb8!KHIIg" />
+        </properties>
+    </persistence-unit>
+</persistence>
