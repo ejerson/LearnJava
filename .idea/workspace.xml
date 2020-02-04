@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="900a4fbd-85af-4c26-a9f3-b93903fec721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/apache/math/fraction/LearnFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/arrays/centeredAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/concurrent/FutureToPoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/concurrent/SingleThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/concurrent/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/arrays/sum67.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/SpringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/edgedevelop/learnspring/SpringContext.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +62,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.centeredAverage">
+  <component name="RunManager" selected="Application.sum67">
     <configuration name="FutureToPoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.edgedevelop.util.concurrent.FutureToPoll" />
       <module name="ScratchProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.edgedevelop.util.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.util.regex.LearnPattern" />
-      <module name="ScratchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edgedevelop.util.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sum67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.arrays.sum67" />
+      <module name="ScratchProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edgedevelop.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sum67" />
         <item itemvalue="Application.centeredAverage" />
         <item itemvalue="Application.ValidCharacters" />
         <item itemvalue="Application.FutureToPoll" />
         <item itemvalue="Application.SingleThreadExecutor" />
-        <item itemvalue="Application.LearnPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579902361353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added arrays practice codes">
+      <created>1580328047927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580328047927</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +224,8 @@
     <MESSAGE value="played with Apache Commons Math Geometry" />
     <MESSAGE value="learned how to check for invalid regex pattern and how to handle the exception that it causes" />
     <MESSAGE value="more regex matching" />
-    <option name="LAST_COMMIT_MESSAGE" value="more regex matching" />
+    <MESSAGE value="Added arrays practice codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added arrays practice codes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="219" key="#Notifications" timestamp="1579644315291">
@@ -258,18 +257,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="325" y="420" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579903101014" />
+    <state x="690" y="308" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580843294326">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="690" y="308" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580843294326" />
     <state x="1120" y="239" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1579627419640">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1120" y="239" key="#com.intellij.unscramble.UnscrambleDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579627419640" />
-    <state x="953" y="159" key="CommitChangelistDialog2" timestamp="1579902360576">
+    <state x="953" y="159" key="CommitChangelistDialog2" timestamp="1580328047147">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579902360576" />
-    <state x="1225" y="316" key="FileChooserDialogImpl" timestamp="1580328020206">
+    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328047147" />
+    <state x="1225" y="316" key="FileChooserDialogImpl" timestamp="1580328057463">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328020206" />
+    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328057463" />
     <state x="1306" y="458" key="Github.ShareDialog" timestamp="1579644248771">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -278,26 +281,30 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1220" y="270" key="Github.UntrackedFilesDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579642834985" />
-    <state width="914" height="271" key="GridCell.Tab.0.bottom" timestamp="1580324707097">
+    <state width="914" height="268" key="GridCell.Tab.0.bottom" timestamp="1580849004687">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="912" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580324707097" />
-    <state width="914" height="271" key="GridCell.Tab.0.center" timestamp="1580324707097">
+    <state width="914" height="271" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
+    <state width="914" height="268" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580849004687" />
+    <state width="914" height="268" key="GridCell.Tab.0.center" timestamp="1580849004687">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="912" height="281" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580324707097" />
-    <state width="914" height="271" key="GridCell.Tab.0.left" timestamp="1580324707097">
+    <state width="914" height="271" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
+    <state width="914" height="268" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580849004687" />
+    <state width="914" height="268" key="GridCell.Tab.0.left" timestamp="1580849004687">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="912" height="281" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580324707097" />
-    <state width="914" height="271" key="GridCell.Tab.0.right" timestamp="1580324707097">
+    <state width="914" height="271" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
+    <state width="914" height="268" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580849004687" />
+    <state width="914" height="268" key="GridCell.Tab.0.right" timestamp="1580849004687">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="912" height="281" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580324707097" />
+    <state width="914" height="271" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
+    <state width="914" height="268" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580849004687" />
     <state width="901" height="343" key="GridCell.Tab.1.bottom" timestamp="1579808041539">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -327,10 +334,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="880" y="135" key="SettingsEditor/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579804274279" />
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2" timestamp="1579902365032">
+    <state x="1032" y="297" key="Vcs.Push.Dialog.v2" timestamp="1580328050365">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579902365032" />
+    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328050365" />
     <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1579800294479">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
