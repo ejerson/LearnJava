@@ -1,4 +1,4 @@
-package com.edgedevelop.util.observer.observers;
+package com.edgedevelop.util.observable.observers;
 
 import java.util.Observable;
 

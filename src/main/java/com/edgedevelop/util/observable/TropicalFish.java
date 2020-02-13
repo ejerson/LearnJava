@@ -1,4 +1,4 @@
-package com.edgedevelop.util.observer;
+package com.edgedevelop.util.observable;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -14,7 +14,6 @@ public class TropicalFish implements Observer {
      * This update method will be called only if
      * I call notifyObservers() method inside the class
      * that implemented the Observable class
-     *
      */
     @Override
     public void update(Observable o, Object arg) {

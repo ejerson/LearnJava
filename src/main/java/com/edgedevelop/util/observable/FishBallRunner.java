@@ -1,6 +1,6 @@
-package com.edgedevelop.util.observer;
+package com.edgedevelop.util.observable;
 
-import com.edgedevelop.util.observer.observers.FishFeeder;
+import com.edgedevelop.util.observable.observers.FishFeeder;
 
 import java.util.ArrayList;
 import java.util.List;
