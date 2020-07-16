@@ -1,4 +1,4 @@
-package com.edgedevelop.util.observable;
+package com.edgedevelop.util.observable.fishbowl;
 
 import java.util.Observable;
 import java.util.Observer;

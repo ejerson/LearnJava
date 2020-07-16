@@ -1,4 +1,4 @@
-package com.edgedevelop.util.observable.observers;
+package com.edgedevelop.util.observable.fishbowl.observers;
 
 import java.util.Observable;
 
@@ -8,12 +8,8 @@ import java.util.Observable;
 public class FishFeeder extends Observable {
 
     public void feedTheFish() {
-
         // this will ??
         setChanged();
         notifyObservers();
-
     }
-
-
 }

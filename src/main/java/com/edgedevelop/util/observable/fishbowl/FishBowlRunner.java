@@ -1,6 +1,6 @@
-package com.edgedevelop.util.observable;
+package com.edgedevelop.util.observable.fishbowl;
 
-import com.edgedevelop.util.observable.observers.FishFeeder;
+import com.edgedevelop.util.observable.fishbowl.observers.FishFeeder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * A class that will control the interaction between TropicalFish
  * and FishFeeder
  */
-public class FishBallRunner {
+public class FishBowlRunner {
 
     public static void main(String[] args) {
         List<TropicalFish> tropicalFishList = new ArrayList<TropicalFish>();
