@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ScratchProject" />
         <module name="LearnJava" />
+        <module name="JavaProjects" />
       </profile>
     </annotationProcessing>
   </component>

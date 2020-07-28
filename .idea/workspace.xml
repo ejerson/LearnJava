@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="900a4fbd-85af-4c26-a9f3-b93903fec721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/event/MonthPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/event/TextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/event/observer/ButtonObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/decisionconstruct/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/importstatement/Import.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/FishBallRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/fishbowl/FishBowlRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/TropicalFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/fishbowl/TropicalFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/observers/FishFeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/observable/fishbowl/observers/FishFeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ScratchProject.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,31 +59,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\ejers\Desktop\ScratchProject\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1WUAtdgkFLVHdgNKzNfKtuM6a7q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -69,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FishBowlRunner">
+  <component name="RunManager" selected="Application.Switch">
     <configuration name="ExceptionHandlingPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.edgedevelop.exceptions.ExceptionHandlingPrint" />
       <module name="ScratchProject" />
@@ -98,23 +114,10 @@
     </configuration>
     <configuration name="FishBowlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.edgedevelop.util.observable.fishbowl.FishBowlRunner" />
-      <module name="ScratchProject" />
+      <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.edgedevelop.util.observable.fishbowl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HaveThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.arrays.HaveThree" />
-      <module name="ScratchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edgedevelop.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,27 +151,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.decisionconstruct.Switch" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edgedevelop.decisionconstruct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LearnStringBuilder" />
+      <item itemvalue="Application.ExceptionHandlingPrint" />
+      <item itemvalue="Application.ExceptionHandlingThrows" />
+      <item itemvalue="Application.FishBowlRunner" />
+      <item itemvalue="Application.SortArrayList" />
+      <item itemvalue="Application.Switch" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Switch" />
         <item itemvalue="Application.FishBowlRunner" />
         <item itemvalue="Application.ExceptionHandlingThrows" />
         <item itemvalue="Application.ExceptionHandlingPrint" />
         <item itemvalue="Application.SortArrayList" />
-        <item itemvalue="Application.HaveThree" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -268,6 +280,17 @@
     <option name="localTasksCounter" value="13" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="played with Apache Commons Math Geometry" />
@@ -280,164 +303,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Reviewed exception handling." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="219" key="#Notifications" timestamp="1579644315291">
+    <state x="410" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595948659320">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1032" y="219" key="#Notifications/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579644315291" />
-    <state x="552" y="219" key="#Project_Structure" timestamp="1579194050206">
+    <state x="410" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595948659320" />
+    <state x="736" y="321" key="FileChooserDialogImpl" timestamp="1595948664689">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="219" key="#Project_Structure/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579194050206" />
-    <state x="828" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579291707514">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="828" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579291707514" />
-    <state x="1208" y="367" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579629578318">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1208" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579629578318" />
-    <state x="1245" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1582135445018">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1245" y="273" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579197537444" />
-    <state x="1245" y="273" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579556874353" />
-    <state x="1245" y="273" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582135445018" />
-    <state x="1245" y="273" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581549284382" />
-    <state x="259" y="341" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579903089783">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="259" y="341" key="#com.intellij.ide.util.PackageChooserDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579903089783" />
-    <state x="1012" y="486" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582135236396">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1012" y="486" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582135236396" />
-    <state x="325" y="420" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579903101014">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="325" y="420" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579903101014" />
-    <state x="690" y="308" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580843294326">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="690" y="308" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580843294326" />
-    <state x="1120" y="239" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1579627419640">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1120" y="239" key="#com.intellij.unscramble.UnscrambleDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579627419640" />
-    <state x="953" y="159" key="CommitChangelistDialog2" timestamp="1581616146886">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328047147" />
-    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580918935221" />
-    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1581616146886" />
-    <state x="953" y="159" key="CommitChangelistDialog2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581530430027" />
-    <state x="1225" y="316" key="FileChooserDialogImpl" timestamp="1581962381571">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328057463" />
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1581008409242" />
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1581962381571" />
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581547213529" />
-    <state x="1225" y="316" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1581179257420" />
-    <state x="1306" y="458" key="Github.ShareDialog" timestamp="1579644248771">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1306" y="458" key="Github.ShareDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579644248771" />
-    <state x="1220" y="270" key="Github.UntrackedFilesDialog" timestamp="1579642834985">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1220" y="270" key="Github.UntrackedFilesDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579642834985" />
-    <state width="956" height="109" key="GridCell.Tab.0.bottom" timestamp="1582139384964">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="912" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
-    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1581008411177" />
-    <state width="956" height="109" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582139384964" />
-    <state width="886" height="265" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581549916326" />
-    <state width="1871" height="2" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1581179259177" />
-    <state width="956" height="109" key="GridCell.Tab.0.center" timestamp="1582139384964">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="912" height="281" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
-    <state width="914" height="270" key="GridCell.Tab.0.center/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1581008411177" />
-    <state width="956" height="109" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582139384964" />
-    <state width="886" height="265" key="GridCell.Tab.0.center/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581549916326" />
-    <state width="1871" height="2" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1581179259176" />
-    <state width="956" height="109" key="GridCell.Tab.0.left" timestamp="1582139384964">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="912" height="281" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
-    <state width="914" height="270" key="GridCell.Tab.0.left/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1581008411177" />
-    <state width="956" height="109" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582139384964" />
-    <state width="886" height="265" key="GridCell.Tab.0.left/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581549916325" />
-    <state width="1871" height="2" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1581179259176" />
-    <state width="956" height="109" key="GridCell.Tab.0.right" timestamp="1582139384964">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="912" height="281" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579211258791" />
-    <state width="914" height="271" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328060185" />
-    <state width="914" height="270" key="GridCell.Tab.0.right/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1581008411177" />
-    <state width="956" height="109" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1582139384964" />
-    <state width="886" height="265" key="GridCell.Tab.0.right/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581549916326" />
-    <state width="1871" height="2" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1581179259176" />
-    <state width="901" height="343" key="GridCell.Tab.1.bottom" timestamp="1579808041539">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="901" height="343" key="GridCell.Tab.1.bottom/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579808041539" />
-    <state width="901" height="343" key="GridCell.Tab.1.center" timestamp="1579808041539">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="901" height="343" key="GridCell.Tab.1.center/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579808041539" />
-    <state width="901" height="343" key="GridCell.Tab.1.left" timestamp="1579808041539">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="901" height="343" key="GridCell.Tab.1.left/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579808041539" />
-    <state width="901" height="343" key="GridCell.Tab.1.right" timestamp="1579808041539">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="901" height="343" key="GridCell.Tab.1.right/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579808041539" />
-    <state x="1020" y="296" key="IDE.errors.dialog" timestamp="1579375796199">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1020" y="296" key="IDE.errors.dialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579375796199" />
-    <state x="1020" y="406" key="MavenRunHelper.GoalEditor" timestamp="1579381721978">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1020" y="406" key="MavenRunHelper.GoalEditor/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579194207426" />
-    <state x="1020" y="406" key="MavenRunHelper.GoalEditor/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579381721978" />
-    <state x="717" y="274" key="RollbackChangesDialog" timestamp="1581179237240">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="717" y="274" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1581179237240" />
-    <state x="880" y="135" key="SettingsEditor" timestamp="1579804274279">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="880" y="135" key="SettingsEditor/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579804274279" />
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2" timestamp="1581616149339">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1580328050365" />
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-4.1120.1920.1040@0.40.1920.1040" timestamp="1580918939335" />
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1581616149339" />
-    <state x="1032" y="297" key="Vcs.Push.Dialog.v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581530433296" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1581960426135">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/-4.1080.1536.824@0.40.1920.1040" timestamp="1579194022191" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579800294479" />
-    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1536.824@0.40.1920.1040" timestamp="1581960426135" />
-    <state x="521" y="349" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581547202136" />
-    <state x="685" y="256" key="new project wizard" timestamp="1579383856943">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="685" y="256" key="new project wizard/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579383856943" />
-    <state x="747" y="293" width="672" height="678" key="search.everywhere.popup" timestamp="1581530953149">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="747" y="293" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-4.1120.1536.824@0.40.1920.1040" timestamp="1579627451248" />
-    <state x="747" y="293" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1581530953149" />
+    <state x="736" y="321" key="FileChooserDialogImpl/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595948664689" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
