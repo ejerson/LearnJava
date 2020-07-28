@@ -32,13 +32,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="900a4fbd-85af-4c26-a9f3-b93903fec721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/decisionconstruct/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/importstatement/Import.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="900a4fbd-85af-4c26-a9f3-b93903fec721" name="Default Changelist" comment="Reviewed import rules in java.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/classdesign/InstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/datatypes/IntegerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/io/LearnBufferedReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/io/LearnReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edgedevelop/util/LearnScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ScratchProject.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,39 +85,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Switch">
-    <configuration name="ExceptionHandlingPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.exceptions.ExceptionHandlingPrint" />
-      <module name="ScratchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edgedevelop.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionHandlingThrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.exceptions.ExceptionHandlingThrows" />
-      <module name="ScratchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edgedevelop.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FishBowlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.util.observable.fishbowl.FishBowlRunner" />
+  <component name="RunManager" selected="Application.LearnBufferedReader">
+    <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.classdesign.InstanceOf" />
       <module name="JavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.edgedevelop.util.observable.fishbowl.*" />
+          <option name="PATTERN" value="com.edgedevelop.classdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.datatypes.IntegerWrapper" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edgedevelop.datatypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnBufferedReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.io.LearnBufferedReader" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edgedevelop.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.util.LearnScanner" />
+      <module name="JavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edgedevelop.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +144,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.edgedevelop.stringbuilder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edgedevelop.collection.list.SortArrayList" />
-      <module name="ScratchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edgedevelop.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LearnStringBuilder" />
-      <item itemvalue="Application.ExceptionHandlingPrint" />
-      <item itemvalue="Application.ExceptionHandlingThrows" />
-      <item itemvalue="Application.FishBowlRunner" />
-      <item itemvalue="Application.SortArrayList" />
       <item itemvalue="Application.Switch" />
+      <item itemvalue="Application.InstanceOf" />
+      <item itemvalue="Application.IntegerWrapper" />
+      <item itemvalue="Application.LearnScanner" />
+      <item itemvalue="Application.LearnBufferedReader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnBufferedReader" />
+        <item itemvalue="Application.LearnScanner" />
+        <item itemvalue="Application.IntegerWrapper" />
+        <item itemvalue="Application.InstanceOf" />
         <item itemvalue="Application.Switch" />
-        <item itemvalue="Application.FishBowlRunner" />
-        <item itemvalue="Application.ExceptionHandlingThrows" />
-        <item itemvalue="Application.ExceptionHandlingPrint" />
-        <item itemvalue="Application.SortArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581616147518</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Reviewed import rules in java.">
+      <created>1595954019838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595954019838</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +297,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -300,17 +308,42 @@
     <MESSAGE value="Added comparator code" />
     <MESSAGE value="Learned about the observable class and observer interface" />
     <MESSAGE value="Reviewed exception handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviewed exception handling." />
+    <MESSAGE value="Reviewed import rules in java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reviewed import rules in java." />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595948659320">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="410" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595948659320" />
+    <state x="933" y="488" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595953988672">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="933" y="488" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595953988672" />
     <state x="736" y="321" key="FileChooserDialogImpl" timestamp="1595948664689">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="736" y="321" key="FileChooserDialogImpl/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595948664689" />
+    <state width="1107" height="281" key="GridCell.Tab.0.bottom" timestamp="1595956874675">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1107" height="281" key="GridCell.Tab.0.bottom/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595956874675" />
+    <state width="1107" height="281" key="GridCell.Tab.0.center" timestamp="1595956874675">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1107" height="281" key="GridCell.Tab.0.center/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595956874675" />
+    <state width="1107" height="281" key="GridCell.Tab.0.left" timestamp="1595956874675">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1107" height="281" key="GridCell.Tab.0.left/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595956874675" />
+    <state width="1107" height="281" key="GridCell.Tab.0.right" timestamp="1595956874675">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1107" height="281" key="GridCell.Tab.0.right/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595956874675" />
+    <state x="888" y="296" key="Vcs.Push.Dialog.v2" timestamp="1595954021463">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="888" y="296" key="Vcs.Push.Dialog.v2/1920.32.1536.832/0.40.1920.1040@0.40.1920.1040" timestamp="1595954021463" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
